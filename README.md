@@ -2,19 +2,27 @@
 Making a real time face detection using OpenCV library and python language.
 
 OS: ubuntu 20.04.2LTS
+
 VM: VMware Workstation 16
 
-1- Ineeded to define my integrated camera as a USB camera (Chicony HP Wide Vision HD), so I changed the usb port for the camera to 1.1 in so the VM would be able to define it on the OS but it didn't work.
 
-2-I installed cheese on Ubuntu so it can detect my camera but it didn't the first time because I had to restart the VM and confirm turning off the camera on the Host OS so the Guest OS could use it and it worked.
+
+
+1- I needed to define my integrated laptop camera as a USB camera (Chicony HP Wide Vision HD), so I changed the usb port for the camera to 3.1  so the VM would be able to define it on the OS but it didn't work.
+![Screenshot 2021-07-07 062531](https://user-images.githubusercontent.com/85634276/124695624-3c490a80-deec-11eb-93e9-eee85d5ed210.png)
+
+2-I installed cheese on Ubuntu so it can detect my camera but it didn't the first time, because I had to restart the VM and confirm turning off the camera on the Host OS so the Guest OS could use it and it worked.
+![Screenshot 2021-07-07 062346](https://user-images.githubusercontent.com/85634276/124695513-fc822300-deeb-11eb-940f-a97ab40b1aae.png)
 
 3-I downloaded OpenCV library on the terminal, then I downloaded python.
 
-4-I looked at realtime face detection projects and referenced some pieces of code from then(link to resources at the end), and went through asome trial and error until it woked perfectly fine.
+4-I searched a couple of realtime face detection projects and referenced some pieces of code from them(link to resources at the end), and went through some trial and error until the program worked as intended. (to close the program, press esc or tab on the "X" icon).
+![Screenshot 2021-07-07 060645](https://user-images.githubusercontent.com/85634276/124694857-bd9f9d80-deea-11eb-9ca6-b9a7248a3d6b.png)
 
-5-The program needed only one file from OpenCV library to work so the folder contains only one xml file.
+5-The program needed only one file from OpenCV library to work, so the folder contains only one xml file.
 
 Resources:
+
 https://github.com/opencv/opencv/tree/master/data/haarcascades
 
 https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html
